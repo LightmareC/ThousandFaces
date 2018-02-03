@@ -1,0 +1,548 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		292940182025BA95000D57A6 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 292940172025BA95000D57A6 /* AppDelegate.m */; };
+		2929401B2025BA95000D57A6 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2929401A2025BA95000D57A6 /* ViewController.m */; };
+		2929401D2025BA95000D57A6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2929401C2025BA95000D57A6 /* Assets.xcassets */; };
+		292940202025BA95000D57A6 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2929401E2025BA95000D57A6 /* Main.storyboard */; };
+		292940232025BA95000D57A6 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 292940222025BA95000D57A6 /* main.m */; };
+		2929402E2025BA95000D57A6 /* ThousandFacesTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 2929402D2025BA95000D57A6 /* ThousandFacesTests.m */; };
+		292940392025BA95000D57A6 /* ThousandFacesUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 292940382025BA95000D57A6 /* ThousandFacesUITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		2929402A2025BA95000D57A6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2929400B2025BA95000D57A6 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 292940122025BA95000D57A6;
+			remoteInfo = ThousandFaces;
+		};
+		292940352025BA95000D57A6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2929400B2025BA95000D57A6 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 292940122025BA95000D57A6;
+			remoteInfo = ThousandFaces;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		292940132025BA95000D57A6 /* ThousandFaces.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ThousandFaces.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		292940162025BA95000D57A6 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		292940172025BA95000D57A6 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		292940192025BA95000D57A6 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		2929401A2025BA95000D57A6 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		2929401C2025BA95000D57A6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		2929401F2025BA95000D57A6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		292940212025BA95000D57A6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		292940222025BA95000D57A6 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		292940242025BA95000D57A6 /* ThousandFaces.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = ThousandFaces.entitlements; sourceTree = "<group>"; };
+		292940292025BA95000D57A6 /* ThousandFacesTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ThousandFacesTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		2929402D2025BA95000D57A6 /* ThousandFacesTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ThousandFacesTests.m; sourceTree = "<group>"; };
+		2929402F2025BA95000D57A6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		292940342025BA95000D57A6 /* ThousandFacesUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ThousandFacesUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		292940382025BA95000D57A6 /* ThousandFacesUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ThousandFacesUITests.m; sourceTree = "<group>"; };
+		2929403A2025BA95000D57A6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		292940102025BA95000D57A6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		292940262025BA95000D57A6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		292940312025BA95000D57A6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2929400A2025BA95000D57A6 = {
+			isa = PBXGroup;
+			children = (
+				292940152025BA95000D57A6 /* ThousandFaces */,
+				2929402C2025BA95000D57A6 /* ThousandFacesTests */,
+				292940372025BA95000D57A6 /* ThousandFacesUITests */,
+				292940142025BA95000D57A6 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		292940142025BA95000D57A6 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				292940132025BA95000D57A6 /* ThousandFaces.app */,
+				292940292025BA95000D57A6 /* ThousandFacesTests.xctest */,
+				292940342025BA95000D57A6 /* ThousandFacesUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		292940152025BA95000D57A6 /* ThousandFaces */ = {
+			isa = PBXGroup;
+			children = (
+				292940162025BA95000D57A6 /* AppDelegate.h */,
+				292940172025BA95000D57A6 /* AppDelegate.m */,
+				292940192025BA95000D57A6 /* ViewController.h */,
+				2929401A2025BA95000D57A6 /* ViewController.m */,
+				2929401C2025BA95000D57A6 /* Assets.xcassets */,
+				2929401E2025BA95000D57A6 /* Main.storyboard */,
+				292940212025BA95000D57A6 /* Info.plist */,
+				292940222025BA95000D57A6 /* main.m */,
+				292940242025BA95000D57A6 /* ThousandFaces.entitlements */,
+			);
+			path = ThousandFaces;
+			sourceTree = "<group>";
+		};
+		2929402C2025BA95000D57A6 /* ThousandFacesTests */ = {
+			isa = PBXGroup;
+			children = (
+				2929402D2025BA95000D57A6 /* ThousandFacesTests.m */,
+				2929402F2025BA95000D57A6 /* Info.plist */,
+			);
+			path = ThousandFacesTests;
+			sourceTree = "<group>";
+		};
+		292940372025BA95000D57A6 /* ThousandFacesUITests */ = {
+			isa = PBXGroup;
+			children = (
+				292940382025BA95000D57A6 /* ThousandFacesUITests.m */,
+				2929403A2025BA95000D57A6 /* Info.plist */,
+			);
+			path = ThousandFacesUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		292940122025BA95000D57A6 /* ThousandFaces */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2929403D2025BA95000D57A6 /* Build configuration list for PBXNativeTarget "ThousandFaces" */;
+			buildPhases = (
+				2929400F2025BA95000D57A6 /* Sources */,
+				292940102025BA95000D57A6 /* Frameworks */,
+				292940112025BA95000D57A6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ThousandFaces;
+			productName = ThousandFaces;
+			productReference = 292940132025BA95000D57A6 /* ThousandFaces.app */;
+			productType = "com.apple.product-type.application";
+		};
+		292940282025BA95000D57A6 /* ThousandFacesTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 292940402025BA95000D57A6 /* Build configuration list for PBXNativeTarget "ThousandFacesTests" */;
+			buildPhases = (
+				292940252025BA95000D57A6 /* Sources */,
+				292940262025BA95000D57A6 /* Frameworks */,
+				292940272025BA95000D57A6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2929402B2025BA95000D57A6 /* PBXTargetDependency */,
+			);
+			name = ThousandFacesTests;
+			productName = ThousandFacesTests;
+			productReference = 292940292025BA95000D57A6 /* ThousandFacesTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		292940332025BA95000D57A6 /* ThousandFacesUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 292940432025BA95000D57A6 /* Build configuration list for PBXNativeTarget "ThousandFacesUITests" */;
+			buildPhases = (
+				292940302025BA95000D57A6 /* Sources */,
+				292940312025BA95000D57A6 /* Frameworks */,
+				292940322025BA95000D57A6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				292940362025BA95000D57A6 /* PBXTargetDependency */,
+			);
+			name = ThousandFacesUITests;
+			productName = ThousandFacesUITests;
+			productReference = 292940342025BA95000D57A6 /* ThousandFacesUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		2929400B2025BA95000D57A6 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0910;
+				ORGANIZATIONNAME = Feliks;
+				TargetAttributes = {
+					292940122025BA95000D57A6 = {
+						CreatedOnToolsVersion = 9.1;
+						ProvisioningStyle = Automatic;
+					};
+					292940282025BA95000D57A6 = {
+						CreatedOnToolsVersion = 9.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 292940122025BA95000D57A6;
+					};
+					292940332025BA95000D57A6 = {
+						CreatedOnToolsVersion = 9.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 292940122025BA95000D57A6;
+					};
+				};
+			};
+			buildConfigurationList = 2929400E2025BA95000D57A6 /* Build configuration list for PBXProject "ThousandFaces" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 2929400A2025BA95000D57A6;
+			productRefGroup = 292940142025BA95000D57A6 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				292940122025BA95000D57A6 /* ThousandFaces */,
+				292940282025BA95000D57A6 /* ThousandFacesTests */,
+				292940332025BA95000D57A6 /* ThousandFacesUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		292940112025BA95000D57A6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2929401D2025BA95000D57A6 /* Assets.xcassets in Resources */,
+				292940202025BA95000D57A6 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		292940272025BA95000D57A6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		292940322025BA95000D57A6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		2929400F2025BA95000D57A6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2929401B2025BA95000D57A6 /* ViewController.m in Sources */,
+				292940232025BA95000D57A6 /* main.m in Sources */,
+				292940182025BA95000D57A6 /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		292940252025BA95000D57A6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2929402E2025BA95000D57A6 /* ThousandFacesTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		292940302025BA95000D57A6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				292940392025BA95000D57A6 /* ThousandFacesUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		2929402B2025BA95000D57A6 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 292940122025BA95000D57A6 /* ThousandFaces */;
+			targetProxy = 2929402A2025BA95000D57A6 /* PBXContainerItemProxy */;
+		};
+		292940362025BA95000D57A6 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 292940122025BA95000D57A6 /* ThousandFaces */;
+			targetProxy = 292940352025BA95000D57A6 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		2929401E2025BA95000D57A6 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2929401F2025BA95000D57A6 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		2929403B2025BA95000D57A6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "Mac Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.12;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		2929403C2025BA95000D57A6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "Mac Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.12;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		2929403E2025BA95000D57A6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = ThousandFaces/ThousandFaces.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = 5QS777N6U2;
+				INFOPLIST_FILE = ThousandFaces/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.cc.ThousandFaces;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		2929403F2025BA95000D57A6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = ThousandFaces/ThousandFaces.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = 5QS777N6U2;
+				INFOPLIST_FILE = ThousandFaces/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.cc.ThousandFaces;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		292940412025BA95000D57A6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = 5QS777N6U2;
+				INFOPLIST_FILE = ThousandFacesTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.cc.ThousandFacesTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ThousandFaces.app/Contents/MacOS/ThousandFaces";
+			};
+			name = Debug;
+		};
+		292940422025BA95000D57A6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = 5QS777N6U2;
+				INFOPLIST_FILE = ThousandFacesTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.cc.ThousandFacesTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ThousandFaces.app/Contents/MacOS/ThousandFaces";
+			};
+			name = Release;
+		};
+		292940442025BA95000D57A6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = 5QS777N6U2;
+				INFOPLIST_FILE = ThousandFacesUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.cc.ThousandFacesUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = ThousandFaces;
+			};
+			name = Debug;
+		};
+		292940452025BA95000D57A6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = 5QS777N6U2;
+				INFOPLIST_FILE = ThousandFacesUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.cc.ThousandFacesUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = ThousandFaces;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2929400E2025BA95000D57A6 /* Build configuration list for PBXProject "ThousandFaces" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2929403B2025BA95000D57A6 /* Debug */,
+				2929403C2025BA95000D57A6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2929403D2025BA95000D57A6 /* Build configuration list for PBXNativeTarget "ThousandFaces" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2929403E2025BA95000D57A6 /* Debug */,
+				2929403F2025BA95000D57A6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		292940402025BA95000D57A6 /* Build configuration list for PBXNativeTarget "ThousandFacesTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				292940412025BA95000D57A6 /* Debug */,
+				292940422025BA95000D57A6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		292940432025BA95000D57A6 /* Build configuration list for PBXNativeTarget "ThousandFacesUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				292940442025BA95000D57A6 /* Debug */,
+				292940452025BA95000D57A6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 2929400B2025BA95000D57A6 /* Project object */;
+}
